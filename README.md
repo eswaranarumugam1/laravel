@@ -1,10 +1,13 @@
 # laravel
 
 Laravel Framework :
+
   Laravel PHP Framework is built with the focus of writing code syntax that is simple and expressive. This will provide the advantage of having a Web Application that is developer friendly and code that is maintainable.
 it has been built with a focus of being superior over the other PHP frameworks, with better code foundation, maintainability and more robust features.
+
 When it comes to code reliability and maintainability, Laravel has a good foundation and great community support behind its PHP Framework.
 Laravel Framework Advantages :
+
 Laravel PHP Framework also offers many features such as:
 1.	MVC, HMVC
 2.	Bundles
@@ -29,9 +32,13 @@ Ex.
 
 Laravel Installation Steps :
 1.	Download composer File from https://getcomposer.org/
+
 2.	install the composer where the php.exe file located.
+
 3.	In command prompt enter the location of project. 
+
 4.	type in cmd prompt D:\xampp\htdocs\projects > composer create-project laravel/laravel laravel-demo (laravel-demo  is your project name).
+
 5.	After creating project you have to run the project http://localhost/projects/laravel-demo/public (You can copy all the files reside in public and paste it outside public folder then you can delete public )
 6.	You can create controller via composer through cmd prompt D:\xampp\htdocs\projects\laravel-demo> php artisan make: controller controllerName.(like model also can create via same instead of controller we will put php artisan make:model  modelName).
 
