@@ -1,78 +1,27 @@
-# laravel
+## Laravel PHP Framework
 
-Laravel Framework :
+[![Build Status](https://travis-ci.org/laravel/framework.svg)](https://travis-ci.org/laravel/framework)
+[![Total Downloads](https://poser.pugx.org/laravel/framework/d/total.svg)](https://packagist.org/packages/laravel/framework)
+[![Latest Stable Version](https://poser.pugx.org/laravel/framework/v/stable.svg)](https://packagist.org/packages/laravel/framework)
+[![Latest Unstable Version](https://poser.pugx.org/laravel/framework/v/unstable.svg)](https://packagist.org/packages/laravel/framework)
+[![License](https://poser.pugx.org/laravel/framework/license.svg)](https://packagist.org/packages/laravel/framework)
 
-  Laravel PHP Framework is built with the focus of writing code syntax that is simple and expressive. This will provide the advantage of having a Web Application that is developer friendly and code that is maintainable.
-it has been built with a focus of being superior over the other PHP frameworks, with better code foundation, maintainability and more robust features.
+Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable, creative experience to be truly fulfilling. Laravel attempts to take the pain out of development by easing common tasks used in the majority of web projects, such as authentication, routing, sessions, queueing, and caching.
 
-When it comes to code reliability and maintainability, Laravel has a good foundation and great community support behind its PHP Framework.
-Laravel Framework Advantages :
+Laravel is accessible, yet powerful, providing powerful tools needed for large, robust applications. A superb inversion of control container, expressive migration system, and tightly integrated unit testing support give you the tools you need to build any application with which you are tasked.
 
-Laravel PHP Framework also offers many features such as:
-1.	MVC, HMVC
-2.	Bundles
-3.	RESTful Routing
-4.	The Eloquent ORM
-5.	Application Logic
-6.	Beautiful Templating
-7.	Migrations
-8.	Unit Testing
-9.	Authentication
-10.	ACI
-11.	Caching
-12.	Hooks / Events
-13.	Admin Generation
-14.	Scaffolding
-15.	Validation
-16.	Automatic Pagination
-Artisan:
-Artisan is the name of the command-line interface included with Laravel. It provides a number of helpful commands for your use while developing your application. It is driven by the powerful Symfony Console component.
-Ex. 
+## Official Documentation
 
+Documentation for the framework can be found on the [Laravel website](http://laravel.com/docs).
 
-Laravel Installation Steps :
-1.	Download composer File from https://getcomposer.org/
+## Contributing
 
-2.	install the composer where the php.exe file located.
+Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](http://laravel.com/docs/contributions).
 
-3.	In command prompt enter the location of project. 
+## Security Vulnerabilities
 
-4.	type in cmd prompt D:\xampp\htdocs\projects > composer create-project laravel/laravel laravel-demo (laravel-demo  is your project name).
+If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell at taylor@laravel.com. All security vulnerabilities will be promptly addressed.
 
-5.	After creating project you have to run the project http://localhost/projects/laravel-demo/public (You can copy all the files reside in public and paste it outside public folder then you can delete public )
-6.	You can create controller via composer through cmd prompt D:\xampp\htdocs\projects\laravel-demo> php artisan make: controller controllerName.(like model also can create via same instead of controller we will put php artisan make:model  modelName).
+### License
 
-Note : You can also create a controller manually and model also.
-
-7.	After creating controller and model you should create file for view page or folder at 
-	\\NOVEL12\projects2\demo-laravel\resources\views 
-i.	Ex. : index.blade.php (blade is must while create php file)
-
-8.	To include external css and html file you should install 
-
-D:\xampp\htdocs\projects > composer require illuminate/html. 
-
-After installed this you have to include in config /app.php under
- provider :
-i.	Illuminate\Html\HtmlServiceProvider::class, and in
-
-
-b.	Alias :
-i.	'Html'     => Illuminate\Html\HtmlFacade::class,
-ii.	'Form'  => Illuminate\Html\FormFacade::class
-To include css like { !! Html::style(‘css/style.css’) !! }
-To include Js like { !! Html::script(‘js/jquery.js’) !! }
-
-9.	Then update the composer via D:\xampp\htdocs\projects > composer update.
-10.	You can create a table via migration file. To create migration file via D:\xampp\htdocs\projects >php artisan make:migration table_name
-11.	After creating migration file that resides in database/migrations.
-To create table 
-     Schema::create('users', function (Blueprint $table) {
-            $table->increments('id');
-            $table->string('full_name', 100);
-            $table->string('username', 100);
-            $table->string('password', 100);
-            $table->timestamps();
-        });
-12.	 Before creating table you must change the database name, username, password in .env file.
-
+The Laravel framework is open-sourced software licensed under the [MIT license](http://opensource.org/licenses/MIT)

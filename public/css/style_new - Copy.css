@@ -1,0 +1,801 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,600);
+*{
+	padding:0;
+	margin:0;
+	padding-right: 0px;
+	padding-left: 0px;
+
+	font-family: 'Open Sans', sans-serif;
+}
+body {
+	background:#FFF;
+}
+
+.headerWrap{
+ background-color:#51BACF;
+ background-image:url(../images/tranparent_bg.png);
+ width:100%;
+}
+.contentDiv {
+	background:#fff;
+	/*min-height:489px;*/
+}
+.footerWrap{
+ background-color:#3E3E3E;
+ width:100%;
+ min-height:80px;
+ color:#fff;
+
+}
+
+.navbar-default {
+   border-color: #51BACF;
+}
+.navbar {
+	background-color:transparent;
+    border-radius: 0px;
+	min-height:65px;
+	margin-bottom:0px;
+	border:none
+}
+.navbar-nav {
+	float:right;
+}
+.navbar-collapse ul li {
+	padding: 10px 5px;
+}
+
+.navbar-default .navbar-nav > li > a{
+	color:#fff;
+}
+.navbar-nav > li > a{
+	padding-bottom:10px;
+	padding-top:10px;
+}
+
+.navbar-default .navbar-nav > .open > a, .navbar-default .navbar-nav > .open > a:hover, .navbar-default .navbar-nav > .open > a:focus
+{
+	background-color:inherit;
+
+}
+.nav .open > a, .nav .open > a:hover, .nav .open > a:focus {
+	background-color:inherit;
+}
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus{
+	background-color:#2D545B;
+	color: #fff;
+}
+.container-fluid {
+	padding:0px 20px;
+}
+ .navbar-collapse, .col-md-5, .col-md-8, .col-md-12, .col-md-7,.col-md-3, .col-md-4 {
+	text-align:left;
+}
+.caret {
+	margin-top:-6px;
+}
+
+.img-responsive {
+	margin-top:5px;
+}
+
+.btn {
+	border-radius : 0px;
+}
+.dropdown-menu {
+	padding : 0;
+
+}
+.dropdown-menu > li a:hover{
+	  background: transparent;
+
+}
+
+.dropdown-menu > li:last-child {
+	  background: #FB5D5C;
+	  color:#fff;
+}
+
+.orangeBox {
+	width:60%;
+	background:#E6772F;
+	display:table;
+	margin:0 auto;
+	text-align:center;
+	color:#fff;
+	padding:20px 0px;
+	margin-top:20px;
+	box-shadow: 0px 0px 6px #555;
+}
+.orangeBox h3{
+	font-size:75px;
+	margin-bottom: -10px;
+	margin-top:0px;
+}
+.orangeBox h5{
+	margin-top:0px;
+	font-size:20px;
+}
+.reminderDiv {
+	border-right:1px solid #ccc;
+	padding-right:10px;
+	position: fixed;
+	height: 100%;
+	width: 23.333%;
+}
+.reminderBox {
+	width:100%;
+	margin:0;
+	color:#6C6C6C;
+	margin-top:20px;
+	padding-right: 20px
+}
+.reminderBox img{
+	text-align: right;
+	float: right;
+	padding-top: 7px;
+}
+
+.reminderlistDiv {
+	width:100%;
+	float:left;
+	margin:10px 0px;
+	padding-right: 20px
+}
+.slogon{
+	margin: -20px 0 0 70px;
+	font-size:11px;
+	color:#fff;
+}
+.sidebar-rd-category {
+	display:none;
+}
+.remainderSideMainMenu  {
+	padding-right:0px;
+	border:1px solid #ccc;
+	background:#FFF;
+	min-height:250px;
+	margin-top:20px;
+}
+.reminderDesDiv {
+	border:1px solid #ccc;
+	background:#FFF;
+	min-height:250px;
+}
+.directoryDesDiv {
+	border:1px solid #ccc;
+	background:#FFF;
+	min-height:150px;
+
+}
+.reminderDesTitle {
+	padding:10px;
+	font-size:16px;
+	font-weight:bold;
+}
+
+.reminderlistMsg {
+	width:100%;
+	float:left;
+	margin:5px 0px;
+	padding:0px 10px;
+}
+.reminderlistName {
+	width:100%;
+	float:left;
+	color:#808080;
+	font-size:13px;
+}
+.reminderlistDate {
+	width:95%;
+	float:left;
+	color:#E6772F;
+	font-size:12px;
+	display:block;
+}
+.reminderlistMsg:hover {
+	background:#55a6b7;
+	cursor:pointer;
+	color:#fff;
+}
+.reminderlistMsg:hover .reminderlistName, .reminderlistMsg:hover .reminderlistDivArrow
+{
+	color:#FFF;
+}
+.reminderlistMsg:hover .reminderlistDate
+{
+	color: #000;
+}
+
+.addRemainder {
+	width:100%;
+	float:left
+}
+.addRemainderSubDiv {
+	width:225px;
+	border:1px solid #ddd;
+	text-align:left;
+	float:left;
+	padding:5px;
+}
+.quizRemainderSubDiv {
+	width:81%;
+	border:1px solid #ddd;
+	text-align:left;
+	float:left;
+	padding:5px 0px;
+}
+.addRemainderSubDiv a{
+	color:#FEDFB1;
+	text-decoration:none;
+}
+.addRemainderSubDiv span, .quizRemainderSubDiv span {
+	font-size:25px;
+	color:#6E6E6E;
+}
+
+.quizRemainderSubDiv a {
+	color:#F9BDBB;
+	text-decoration:none;
+}
+
+.allRemainderSubDiv {
+	width:100%;
+	text-align:left;
+	float:right;
+
+}
+.fa-2x {
+	font-size:25px;
+}
+.fa-1x {
+	font-size:20px;
+}
+
+.pl10{
+	padding-left:10px;
+}
+.navbar-default .navbar-toggle .icon-bar{
+	background-color:#fff;
+}
+.ownerEmail {
+		text-align:right;
+}
+
+.nav-pills > li.active > a, .nav-pills > li.active > a:hover, .nav-pills > li.active > a:focus{
+	background:#55A6B7;
+	color:#FFF;
+}
+
+.nav-pills li a {
+	color:#858585;
+	border-radius:0px;
+	border-top:1px solid #ccc;
+}
+
+.nav-stacked > li + li {
+	margin-top : 0px;
+}
+.breadcrumb {
+	background:none;
+	padding:0;
+	margin-bottom :10px;
+
+}
+.breadcrumb li a {
+	color:#43636E;
+}
+.breadcrumb > li + li::before {
+	content: " > ";
+}
+.nav > li > a:hover,
+.nav > li > a:focus {
+	background-color:#55a6b7;
+	color:#FFF;
+}
+
+.directorySidemenu {
+	list-style:none;
+	padding:10px 10px;
+
+}
+.directorySidemenu > li  {
+	padding:3px;
+}
+.directorySidemenu > li a {
+	color:#828282;
+	font-size:12px;
+}
+.directorySidemenu > li > a:hover,
+.directorySidemenu > li > a:focus {
+	text-decoration:none;
+	color:#82E0F2;
+}
+
+.directorySidemenu .active-dir {
+	color:#82E0F2;
+	content:"^";
+}
+
+.remainderOwnerImgSection {
+	border:1px solid #ccc;
+	background:#FFF;
+	height:auto;
+	padding:5px;
+}
+.remainderOwnerSection {
+	padding-left:5px;
+	padding-right:0px;
+	padding-top:15px
+}
+.remainderOwnerSectionTitle {
+	font-size:19px;
+	color:#596469;
+	padding:10px 5px 0px 10px;
+	margin:0px;
+}
+.remainderOwnerSectionSubTitle {
+	font-size:12px;
+	padding:5px 0px 0px 10px;
+	margin:0px;
+	color:#B9C1C4;
+}
+.remainderOwnerSectionSubPh {
+	font-size:12px;
+	padding:5px 0px 0px 10px;
+	margin:0px;
+}
+.remainderOwnerSectionSubPh span {
+	
+	color:#B9C1C4;
+}
+.pager {
+	text-align:right;
+}
+.pager li > a, .pager li > span {
+	border-radius: 0px;
+	color:#9AA0B0;
+	font-size:12px;
+}
+.directorySideMainDiv {
+		padding-right:0px;
+		border:1px solid #ccc;
+		background:#FFF;
+		min-height:250px;
+		margin-top:20px;
+	}
+.directorySideMainDiv ul li ul li {
+	padding:2px 10px;
+}
+.sidebar-dd-category {
+		display:none;
+}
+.reminder_detail_div, .reminderDesMainDiv{
+		padding-right:0px;
+}
+.pRight {
+	padding-right:0px;
+}
+.right_menu .navbar-toggle {
+	margin-top:-40px;
+	margin-bottom:15px;
+}
+.navbar-default .navbar-nav .open .dropdown-menu > li > a {
+	color:#000;
+}
+.left-border {
+	border-left: 1px solid #8ACFDE;
+}
+
+.shadow {
+  -webkit-box-shadow: 0px 0px 6px #ccc;  /* Safari 3-4, iOS 4.0.2 - 4.2, Android 2.3+ */
+  -moz-box-shadow:    0px 0px 6px #ccc; /* Firefox 3.5 - 3.6 */
+  box-shadow:         0px 0px 6px #ccc;  /* Opera 10.5, IE 9, Firefox 4+, Chrome 6+, iOS 5 */
+}
+.btn-success {
+	border-color: transparent;
+}
+.reminderlistDivDate {
+	width:32%;
+	float:left;
+	color:#E6772F;
+	font-size:12px;
+}
+.reminderlistDivTitle {
+	width:62%;
+	float:left;
+	color:#808080;
+	font-size:12px;
+	padding:0px 1px;
+}
+.reminderlistDivArrow {
+	width:3%;
+	float:left;
+	color:#808080;
+	font-size: 12px;
+	text-align:right;
+}
+.homeUserDetails span {
+ 	font-size:35px;
+}
+.homeRightSide {
+	margin-top:40px;
+}
+.homeUserImg {
+	text-align:right;
+	padding-right:20px;
+}
+.width100 {
+	width:100%;
+}
+p {
+	font-size:12px;
+}
+.pL0{
+	padding-left:0px;
+}
+.pT10 {
+	padding-top:10px;
+}
+.fBold {
+	font-weight:bold;
+}
+.txtCenter {
+	text-align:center;
+}
+.txtLeft {
+	text-align:left;
+}
+.txtRight {
+	text-align:right;
+}
+.mt5 {
+	margin-top:5px;
+}
+.mt10 {
+	margin-top:10px;
+}
+.mt15 {
+	margin-top:15px;
+}
+.mt20 {
+	margin-top:20px;
+}
+.mb10 {
+	margin-bottom:10px;
+}
+.mb20 {
+	margin-bottom:20px;
+}
+.fs12 {
+	font-size:12px;
+}
+.fs13 {
+	font-size:13px;
+}
+.fs15 {
+	font-size:15px;
+}
+.fs16 {
+	font-size:16px;
+}
+.fs18 {
+	font-size:18px;
+}
+.fs20 {
+	font-size:20px;
+}
+
+
+@media (max-width: 1200px) {
+
+	.homeUserImg {
+		width:40%;
+	}
+	.homeUserDetails {
+		width:60%;
+		text-align:center;
+	}
+	.reminderDiv {
+		position: fixed;
+		height: 100%;
+		width: 23.333%;
+	}
+	.homeRightSide {
+		width:70%;
+	}
+	.reminderBox h3{
+		font-size:20px;
+	}
+	.slogon{
+		margin: -20px 0 0 63px;
+
+	}
+	.addRemainderSubDiv span, .quizRemainderSubDiv span {
+		font-size:20px;
+	}
+	.remainderOwnerSection {
+		width:100%;
+	}
+	.left_menu  {
+		width:28%;
+	}
+	.right_menu {
+		width:72%;
+	}
+	.homeUserBtn {
+		width:33%;
+		text-align:right;
+	}
+	.alignCenter {
+		text-align:center
+	}
+	.remainderOwnerImgSection, .remainderOwnerSection {
+		width:100%;
+		text-align:center;
+	}
+
+
+
+}
+@media (max-width: 998px) {
+
+	.left_menu {
+		width:25%;
+	}
+	.right_menu {
+		width:75%;
+	}
+	.right_menu .navbar {
+		float:right;
+	}
+	.homeUserImg, .homeUserDetails{
+		width:100%;text-align:center; padding-right:0px;
+	}
+
+	.slogon {
+   	 font-size: 11px;
+     margin: -15px 0 0 48px;
+	}
+
+	.navbar-nav {
+	 	margin :0px;
+		float:left;
+	}
+	.homeRightSide {
+		margin-top:0px;
+		width:100%;
+		left: 0;
+	}
+	.orangeBox
+	{
+		width: 175px;
+	}
+	.reminderDiv {
+		border:none;
+		width:100%;
+		position: relative;
+		height: auto;
+	}
+
+	.pRight {
+		padding-right:15px;
+	}
+
+	.reminderDesMainDiv {
+		padding-left : 0px;
+		padding-right: 0px;
+		margin:10px 0px;
+	}
+
+	.directorySideMainDiv, .remainderSideMainMenu {
+		display:none;
+	}
+
+	.sidebar-dd-category, .sidebar-rd-category  {
+		display:block;
+	}
+
+	.left-border {
+		border-left:inherit;
+	}
+	.homeUserBtn {
+		text-align:center;
+		width:100%;
+		margin-bottom:2px;
+	}
+
+	.homeUserTitle {
+		width:100%;
+		text-align:center;
+	}
+	.homeUserImg {
+		text-align:center; width:100%;
+	}
+
+	 .ownerContact, .ownerEmail {
+		 width:100%; text-align:left;
+	 }
+}
+
+@media (max-width: 991px) {
+	.left_menu {
+		width:100%;
+	}
+	.right_menu {
+		width:100%;
+	}
+	.right_menu .navbar {
+		float:none;
+	}
+	.slogon {
+   	 font-size: 11px;
+     margin: -20px 0 0 70px;
+	}
+
+	.reminder_detail_div {
+		padding-left:0px;
+		padding-top:10px;
+	}
+}
+@media (max-width: 800px) {
+	.reminderDiv {
+			border:none;
+	}
+	 .ownerSection {
+		 padding-bottom:20px;
+	 }
+
+	 .homeUserDetails span {
+		 font-size:30px;
+	 }
+	 .navbar-nav {
+		 float:none;
+	 }
+	.container-fluid {
+	  padding-left:0px;
+	  padding-right:0px;
+	}
+	.homeRightSide {
+		margin-top:0px;
+		width:100%;
+	}
+}
+@media (max-width: 768px) {
+	.reminderDiv {
+		border:none;
+	}
+	.addRemainderSubDiv {
+		width:60%;
+	}
+	.fa-2x, .addRemainderSubDiv span,  .quizRemainderSubDiv span{
+		font-size:20px !important;
+	}
+	.quizRemainderSubDiv{
+		width:100%;
+	}
+	.ownerSection {
+		 padding-bottom:20px;
+	 }
+	 .right_menu .navbar-toggle {
+		margin-top:-40px;
+		margin-bottom:15px;
+		display:block;
+	}
+	.homeUserDetails span {
+		 font-size:25px;
+	 }
+
+
+
+}
+@media (max-width: 470px) {
+
+
+	.right_menu .navbar-toggle {
+		margin-top:10px;
+		margin-bottom:15px;
+	}
+	.ownerContact {
+		 width:100%;
+	 }
+	.ownerEmail {
+		 width:100%;
+		 text-align:left;
+		 margin-bottom:20px;
+	 }
+	.addRemainderSubDiv {
+		width:60%;
+	}
+	.fa-2x, .addRemainderSubDiv span, .quizRemainderSubDiv span {
+		font-size:16px !important;
+	}
+	.quizRemainderSubDiv{
+		width:100%;
+	}
+	.homeUserDetails, .homeUserImg, .homeUserTitle {
+		float:none;
+	}
+	.homeUserTitle {
+		width:100%;
+	}
+	.alignCenter {
+		text-align:center;
+	}
+
+
+
+}
+@media (max-width: 360px) {
+	.slogon{
+		margin: -15px 0 0 60px;
+		font-size:11px;
+		color:#fff;
+	}
+
+	.homeUserBtn {
+		margin-bottom:2px;
+	}
+	.homeUserDetails span {
+ 		font-size:20px;
+	}
+	.reminderDiv {
+		border:none;
+	}
+	.addRemainderSubDiv {
+		width:60%;
+	}
+	.fa-2x, .addRemainderSubDiv span, .quizRemainderSubDiv span{
+		font-size:12px !important;
+	}
+	.quizRemainderSubDiv{
+	 		width:100%;
+	}
+	.ownerEmail {
+		text-align:left;
+	}
+	 .ownerSection {
+	 	padding-bottom:20px;
+ 	}
+	.ownerContact, .ownerEmail {
+		 width:100%; float:left;
+
+	 }
+
+	.addRemainder {
+		margin-top:20px;
+	}
+	.alignCenter {
+		text-align:center;
+	}
+
+
+}
+
+@media (max-width: 316px) {
+	.slogon{
+		margin: -15px 0 0 56px;
+		font-size:11px;
+		color:#fff;
+	}
+	.reminderDiv {
+		border:none;
+	}
+
+	.alignCenter {
+		text-align:center;
+	}
+	.homeUserDetails  {
+		 padding-right:0px;
+		 font-size:12px;
+	 }
+}
+
+@media (max-width: 270px) {
+	 .ownerSection {
+	 padding-bottom:20px;
+ }
+ .ownerContact, .ownerEmail {
+	 width:100%; float:left;
+ }
+}
